@@ -1,0 +1,61 @@
+/* Full Screen Image Layer Ingestion Matrix */
+.stApp {
+    background: linear-gradient(rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.85)), 
+                url('https://images.unsplash.com/photo-1582407947304-fd86f028f716?q=80&w=1600&auto=format&fit=crop') no-repeat center center fixed !important;
+    background-size: cover !important;
+    color: #0F172A !important;
+}
+
+/* Headings Typography Color Customization */
+h1, h2, h3, p, label, .stText, [data-testid="stHeaderCaption"] {
+    color: #0F172A !important;
+    font-weight: 600 !important;
+}
+
+/* Input Fields Box Custom Translucent Framing */
+div[data-testid="stNumberInput"], div[data-testid="stSelectbox"], div[data-testid="stSlider"] {
+    background-color: rgba(255, 255, 255, 0.75) !important;
+    padding: 12px !important;
+    border-radius: 8px !important;
+    border: 1px solid rgba(226, 232, 240, 0.8) !important;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.02) !important;
+}
+
+/* Premium Output Valuation Asset Card */
+.premium-valuation-card {
+    background-color: #0F172A !important; /* Rich Dark Charcoal */
+    padding: 30px !important;
+    border-radius: 12px !important;
+    border: 1px solid #1E293B !important;
+    margin-top: 25px !important;
+    margin-bottom: 25px !important;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
+}
+
+.card-label {
+    margin: 0 !important;
+    font-size: 12px !important;
+    color: #94A3B8 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 2px !important;
+    font-weight: 600 !important;
+}
+
+.card-value {
+    margin: 12px 0 !important;
+    color: #FFFFFF !important;
+    font-size: 42px !important;
+    font-weight: 800 !important;
+    letter-spacing: -1px !important;
+}
+
+.premium-badge {
+    background-color: #1E293B !important;
+    color: #38BDF8 !important; /* Cyan Light Blue Accent */
+    padding: 6px 14px !important;
+    border-radius: 6px !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    border: 1px solid #334155 !important;
+    display: inline-block !important;
+}
